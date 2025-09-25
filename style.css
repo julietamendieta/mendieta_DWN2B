@@ -345,7 +345,7 @@ p{
     align-items: center;
     justify-content: space-around;
     width: 20%;
-    height: 300px;
+    height: auto;
     margin: 20px;
     background-color: var(--main-color-2);
     color: white;
