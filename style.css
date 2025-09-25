@@ -295,30 +295,16 @@ p{
     }
 
     .reverse{
-        flex-direction: column;
         border-radius: 10px;
     }
 
     .valor p{
         padding: 10px;
-        border-radius: unset;
         height: 90%;
     }
 
-    .reverse p{
-        border-radius: unset;
-    }
-
     .valor h3{
-        border-top-right-radius: unset;
-        text-align: center;
         font-size: 40px;
-    }
-
-    .reverse h3{
-        text-align: center;
-        border-top-left-radius: unset;
-        padding-right: unset;
     }
 
     .valor img{
