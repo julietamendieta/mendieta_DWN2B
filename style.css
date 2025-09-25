@@ -396,6 +396,7 @@ footer .rrss{
 
     .textoServicio{
         position: unset;
+        opacity: 100%;
     }
 
     .textoServicio h4{
