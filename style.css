@@ -198,6 +198,10 @@ p{
     transition: all 0.3s;
 }
 
+.textoServicio:hover{
+    opacity: 100%;
+}
+
 .textoServicio h4{
     font-family: "Mitr", sans-serif;
     font-weight: 300;
