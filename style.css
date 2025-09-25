@@ -449,14 +449,14 @@ p{
 }
 
 .opinion{
-    width: 150px;
+    width: 200px;
     background-color: var(--main-color-2);
     border-radius: 10px;
     color: white;
 }
 
 .opinion img{
-    width: 150px;
+    width: 200px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
