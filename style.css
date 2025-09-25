@@ -199,6 +199,12 @@ p{
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1300px){
+    #nosotrosContenido{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     .nosotrosContenido{
         display: flex;
         flex-direction: column;
