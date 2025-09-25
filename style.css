@@ -175,8 +175,11 @@ p{
 
 /* Servicios */
 
-#contenedorServicios{
+#servicios{
     background-color: var(--secondary-color);
+}
+
+#contenedorServicios{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
