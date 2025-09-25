@@ -198,6 +198,21 @@ p{
     }
 }
 
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+    .nosotrosTexto{
+        width: 70%;
+        padding: 0 10px;
+    }
+
+    .nosotrosTexto p{
+        font-size: 16px;
+    }
+
+    .nosotrosImagen{
+        width: 30%;
+    }
+}
+
 /* Valores */
 
 #tarjetas{
