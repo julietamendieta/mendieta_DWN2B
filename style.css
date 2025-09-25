@@ -199,17 +199,18 @@ p{
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1300px){
-    .nosotrosTexto{
-        width: 70%;
-        padding: 0 10px;
+    .nosotrosContenido{
+        display: flex;
+        flex-direction: column;
     }
 
-    .nosotrosTexto p{
-        font-size: 16px;
+    .nosotrosTexto{
+        width: 70%;
+        padding: 20px 10px;
     }
 
     .nosotrosImagen{
-        width: 30%;
+        width: 100%;
     }
 }
 
