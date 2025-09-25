@@ -304,7 +304,7 @@ p{
         padding: 10px;
         height: unset;
         margin-bottom: unset;
-        border-radius: unset;
+        border-radius: 0 0 10px 10px;
     }
 
     .valor h3{
