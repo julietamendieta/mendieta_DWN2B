@@ -82,6 +82,11 @@ p{
 
 #nosotros{
     background-color: var(--main-color-2);
+    align-content: center;
+}
+
+#nosotros h2{
+    color: white;
 }
 
 #nosotrosContenido{
