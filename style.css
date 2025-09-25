@@ -82,7 +82,9 @@ p{
 
 #nosotros{
     background-color: var(--main-color-2);
-    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #nosotros h2{
