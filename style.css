@@ -303,6 +303,7 @@ p{
 
     .valor p{
         padding: 10px;
+        height: unset;
     }
 
     .valor h3{
