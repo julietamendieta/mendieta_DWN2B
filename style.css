@@ -80,8 +80,12 @@ p{
 
 /* Nosotros */
 
+#nosotros{
+    background-color: var(--main-color-2);
+}
+
 #nosotrosContenido{
-    width: 100%;
+    width: 90%;
 }
 
 .nosotrosContenido{
