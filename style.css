@@ -46,7 +46,7 @@ header h2{
 }
 
 h3{
-    font-size: 18px;
+    font-size: 30px;
 }
 
 header h3{
@@ -269,7 +269,6 @@ p{
     .valor h3{
         border-top-right-radius: unset;
         text-align: center;
-        font-size: 30px;
     }
 
     .reverse h3{
