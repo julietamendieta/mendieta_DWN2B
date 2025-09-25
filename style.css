@@ -54,7 +54,7 @@ header h3{
 }
 
 #textoPrincipal{
-    height: 300px;
+    height: 500px;
     background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(./img/fondo.jpg);;
     background-size: cover;
     margin: 30px auto 40px auto;
