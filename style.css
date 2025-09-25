@@ -202,10 +202,11 @@ p{
     .nosotrosContenido{
         display: flex;
         flex-direction: column;
+        width: 70%;
     }
 
     .nosotrosTexto{
-        width: 70%;
+        width: 100%;
         padding: 20px 10px;
     }
 
