@@ -398,11 +398,6 @@ p{
     }
 
     .servicio{
-        display: flex;
-        flex-direction: column;
-        width:90%;
-        height: unset;
-        margin: unset;
         margin-bottom: 10px;
         height: auto;
     }
@@ -417,7 +412,6 @@ p{
     }
 
     .servicio img{
-        height: unset;
         width: 30%;
         margin-top: 10px;
     }
