@@ -200,6 +200,7 @@ p{
 
 .valor{
     width: 49%;
+    height: 300px;
     display: flex;
     align-items: center;
     background-color: var(--secondary-color);
