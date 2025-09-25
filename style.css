@@ -289,7 +289,9 @@ p{
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .valor{
-        height: 450px;
+        display: flex;
+        flex-direction: column;
+        height: auto;
         margin-bottom: 20px;
         border-radius: 10px;
     }
@@ -300,7 +302,7 @@ p{
 
     .valor p{
         padding: 10px;
-        height: 90%;
+        height: 60%;
     }
 
     .valor h3{
