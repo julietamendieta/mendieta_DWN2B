@@ -92,6 +92,10 @@ p{
         padding: 0 10px;
     }
 
+    #textoPrincipal{
+        height: 300px;
+    }
+
     p{
         font-size: 18px;
     }
@@ -117,6 +121,10 @@ p{
 
     header h3{
         font-size: 24px;
+    }
+
+    #textoPrincipal{
+        height: 400px;
     }
 
     p{
