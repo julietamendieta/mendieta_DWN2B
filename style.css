@@ -541,12 +541,19 @@ footer .rrss{
     }
 
     .servicio{
-        width: 40%;
+        position: unset;
+        display: flex;
+        flex-direction: column;
+        width:40%;
+        height: unset;
+        margin: unset;
         margin-bottom: 10px;
     }
 
-    .textoServicio p{
-        padding: 10px 0;
+    .textoServicio{
+        position: unset;
+        opacity: 100%;
+        background-color: unset;
     }
 
     .textoServicio h4{
