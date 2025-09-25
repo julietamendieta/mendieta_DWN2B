@@ -398,6 +398,7 @@ p{
     }
 
     .servicio{
+        width: 30%;
         margin-bottom: 10px;
         height: auto;
     }
@@ -412,7 +413,7 @@ p{
     }
 
     .servicio img{
-        width: 30%;
+        width: 40%;
         margin-top: 10px;
     }
 }
