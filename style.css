@@ -198,7 +198,7 @@ p{
     }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1200px){
+@media screen and (min-width: 1025px) and (max-width: 1300px){
     .nosotrosTexto{
         width: 70%;
         padding: 0 10px;
