@@ -123,6 +123,11 @@ p{
 
 /* Valores */
 
+#valores{
+    background-image: url(./img/fondo2.jpg);
+    background-size: cover;
+}
+
 #tarjetas{
     width: 90%;
     display: flex;
