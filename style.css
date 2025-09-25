@@ -297,7 +297,6 @@ p{
     }
 
     .reverse{
-        border-radius: unset;
         flex-direction: column;
     }
 
@@ -305,6 +304,7 @@ p{
         padding: 10px;
         height: unset;
         margin-bottom: unset;
+        border-radius: unset;
     }
 
     .valor h3{
