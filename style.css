@@ -545,8 +545,6 @@ footer .rrss{
         display: flex;
         flex-direction: column;
         width:40%;
-        height: unset;
-        margin: unset;
         margin-bottom: 10px;
     }
 
