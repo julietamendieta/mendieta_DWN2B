@@ -128,12 +128,6 @@ p{
     }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1300px) {
-    p{
-        font-size: 16px;
-    }
-}
-
 /* Nosotros */
 
 #nosotrosContenido{
@@ -351,7 +345,7 @@ p{
     align-items: center;
     justify-content: space-around;
     width: 20%;
-    height: auto;
+    height: 40%;
     margin: 20px;
     background-color: var(--main-color-2);
     color: white;
@@ -387,6 +381,7 @@ p{
         display: flex;
         flex-direction: column;
         width:90%;
+        height: unset;
         margin: unset;
         margin-bottom: 10px;
     }
@@ -414,6 +409,7 @@ p{
         display: flex;
         flex-direction: column;
         width:90%;
+        height: unset;
         margin: unset;
         margin-bottom: 10px;
         height: auto;
