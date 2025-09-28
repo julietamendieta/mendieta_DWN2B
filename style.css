@@ -14,10 +14,9 @@
 /* Header y General */
 
 body{
-    background-image: url(./img/fondo2.jpg);
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(./img/fondo2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 60%;
 }
 
 #logo{
@@ -62,7 +61,7 @@ header h3{
 
 #textoPrincipal{
     height: 500px;
-    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(./img/fondo.jpg);;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(./img/fondo.jpg);
     background-size: cover;
     margin: 30px auto 40px auto;
     align-content: center;
