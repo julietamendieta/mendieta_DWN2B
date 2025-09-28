@@ -13,6 +13,13 @@
 
 /* Header y General */
 
+body{
+    background-image: url(./img/fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 60%;
+}
+
 #logo{
     display: block;
     width: 40%;
@@ -122,11 +129,6 @@ p{
 }
 
 /* Valores */
-
-#valores{
-    background-image: url(./img/fondo2.jpg);
-    background-size: cover;
-}
 
 #tarjetas{
     width: 90%;
