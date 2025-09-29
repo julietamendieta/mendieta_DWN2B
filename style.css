@@ -26,7 +26,7 @@
 
 @keyframes trasladoeny{
     from{
-        transform: translateY(100%);
+        transform: translateY(200%);
     }
     to{
         transform: translateY(0);
@@ -45,8 +45,11 @@ body{
     margin: auto;
     margin-top: 30px;
     animation-name: trasladoeny;
-    animation-timeline: scroll();
-    animation-range: 0 200px;
+    view-timeline-name: --logo;
+    view-timeline-axis: block;
+    animation-timeline: --logo;
+    animation-range: entry 0% cover 25%;
+    animation-fill-mode: both;
 }
 
 h1{
@@ -93,8 +96,11 @@ header h3{
     margin: 30px auto 40px auto;
     align-content: center;
     animation-name: aparicion;
-    animation-timeline: scroll();
-    animation-range: 0 200px;
+    view-timeline-name: --texto;
+    view-timeline-axis: block;
+    animation-timeline: --texto;
+    animation-range: entry 0% cover 25%;
+    animation-fill-mode: both;
 }
 
 #textoPrincipal h2, #textoPrincipal h3{
