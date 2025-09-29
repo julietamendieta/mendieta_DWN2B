@@ -150,12 +150,14 @@ p{
     animation-name: trasladoenx;
     animation-timeline: scroll();
     animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
 }
 
 .cont2{
     animation-name: trasladoenxder;
     animation-timeline: scroll();
     animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
 }
 
 .nosotrosContenido{
