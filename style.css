@@ -86,6 +86,10 @@ header h3{
     text-align: center;
 }
 
+#marca{
+    margin-bottom: 50px;
+}
+
 #textoPrincipal{
     height: 500px;
     background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(./img/fondo.jpg);
