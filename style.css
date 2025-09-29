@@ -369,13 +369,12 @@ footer .rrss{
 
 @media screen and (max-width: 768px){
     /*Header y general*/
-    #marca{
+    header{
         height: 100vh;
     }
 
     #logo{
         width: 80%;
-        margin-top: 100px;
     }
 
     h1{
@@ -539,13 +538,12 @@ footer .rrss{
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-    #marca{
+    header{
         height: 100vh;
     }
 
     #logo{
         width: 70%;
-        margin-top: 100px;
     }
 
     h1{
