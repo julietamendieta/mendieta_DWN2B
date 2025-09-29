@@ -738,7 +738,7 @@ footer .rrss{
     }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1500px) {
     header{
         height: 100vh;
     }
