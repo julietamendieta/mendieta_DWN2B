@@ -45,11 +45,8 @@ body{
     margin: auto;
     margin-top: 30px;
     animation-name: trasladoeny;
-    view-timeline-name: --logo;
-    view-timeline-axis: block;
-    animation-timeline: --logo;
+    animation-timeline: scroll();
     animation-range: 0 200px;
-    animation-fill-mode: both;
 }
 
 h1{
@@ -96,11 +93,8 @@ header h3{
     margin: 30px auto 40px auto;
     align-content: center;
     animation-name: aparicion;
-    view-timeline-name: --texto;
-    view-timeline-axis: block;
-    animation-timeline: --texto;
+    animation-timeline: --scroll();
     animation-range: 0 200px;
-    animation-fill-mode: both;
 }
 
 #textoPrincipal h2, #textoPrincipal h3{
