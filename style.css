@@ -33,24 +33,6 @@
     }
 }
 
-@keyframes trasladoenx{
-    from{
-        transform: translateX(-100%);
-    }
-    to{
-        transform: translateX(0);
-    }
-}
-
-@keyframes trasladoenxder{
-    from{
-        transform: translateX(100%);
-    }
-    to{
-        transform: translateX(0);
-    }
-}
-
 body{
     background-image: linear-gradient(rgb(255, 255, 255, 0.8), rgb(255, 255, 255, 0.8)), url(./img/fondo2.jpg);
     background-size: contain;
@@ -147,14 +129,14 @@ p{
 }
 
 .cont1{
-    animation-name: trasladoenx;
+    animation-name: aparicion;
     animation-timeline: scroll();
     animation-range: entry 0% cover 25%;
     animation-fill-mode: both;
 }
 
 .cont2{
-    animation-name: trasladoenxder;
+    animation-name: aparicion;
     animation-timeline: scroll();
     animation-range: entry 15% cover 50%;
     animation-fill-mode: both;
@@ -204,17 +186,15 @@ p{
     margin-bottom: 20px;
     border-radius: 0 10px 10px 0;
     box-shadow: 4px 4px 4px 4px rgb(0, 0, 0, 0.3);
-    animation-name: trasladoenx;
+    animation-name: aparicion;
     animation-timeline: scroll();
-    animation-range: 2000px 3000px;
+    animation-range: entry 30% cover 70%;
+    animation-fill-mode: both;
 }
 
 .reverse{
     flex-direction: row-reverse;
     border-radius: 10px 0 0 10px;
-    animation-name: trasladoenxder;
-    animation-timeline: scroll();
-    animation-range: 2000px 3000px;
 }
 
 .valor p{
