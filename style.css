@@ -13,6 +13,38 @@
 
 /* Header y General */
 
+@keyframes aparicion{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes trasladoeny{
+    from{
+        transform: translateY(100%);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+
+@keyframes trasladoenx{
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+@keyframes trasladoenxder{
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
 body{
     background-image: linear-gradient(rgb(255, 255, 255, 0.8), rgb(255, 255, 255, 0.8)), url(./img/fondo2.jpg);
     background-size: contain;
@@ -24,6 +56,9 @@ body{
     width: 40%;
     margin: auto;
     margin-top: 30px;
+    animation-name: trasladoeny;
+    animation-timeline: scroll();
+    animation-range: 0 200px;
 }
 
 h1{
@@ -65,6 +100,9 @@ header h3{
     background-size: cover;
     margin: 30px auto 40px auto;
     align-content: center;
+    animation-name: aparicion;
+    animation-timeline: scroll();
+    animation-range: 0 200px;
 }
 
 #textoPrincipal h2, #textoPrincipal h3{
@@ -100,6 +138,18 @@ p{
 
 #nosotrosContenido{
     width: 90%;
+}
+
+.cont1{
+    animation-name: trasladoenx;
+    animation-timeline: scroll();
+    animation-range: 300px 1000px;
+}
+
+.cont2{
+    animation-name: trasladoenxder;
+    animation-timeline: scroll();
+    animation-range: 1000px 2000px;
 }
 
 .nosotrosContenido{
@@ -146,11 +196,17 @@ p{
     margin-bottom: 20px;
     border-radius: 0 10px 10px 0;
     box-shadow: 4px 4px 4px 4px rgb(0, 0, 0, 0.3);
+    animation-name: trasladoenx;
+    animation-timeline: scroll();
+    animation-range: 2000px 3000px;
 }
 
 .reverse{
     flex-direction: row-reverse;
     border-radius: 10px 0 0 10px;
+    animation-name: trasladoenxder;
+    animation-timeline: scroll();
+    animation-range: 2000px 3000px;
 }
 
 .valor p{
