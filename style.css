@@ -39,10 +39,6 @@ body{
     background-repeat: repeat;
 }
 
-header{
-    height: 100vh;
-}
-
 #logo{
     display: block;
     width: 40%;
