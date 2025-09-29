@@ -33,6 +33,15 @@
     }
 }
 
+@keyframes trasladoenymedia{
+    from{
+        transform: translateY(200%);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+
 body{
     background-image: linear-gradient(rgb(255, 255, 255, 0.8), rgb(255, 255, 255, 0.8)), url(./img/fondo2.jpg);
     background-size: contain;
@@ -375,6 +384,9 @@ footer .rrss{
 
     #logo{
         width: 80%;
+        animation-name: trasladoenymedia;
+        animation-timeline: scroll();
+        animation-range: 0 300px;
     }
 
     h1{
@@ -544,6 +556,9 @@ footer .rrss{
 
     #logo{
         width: 70%;
+        animation-name: trasladoenymedia;
+        animation-timeline: scroll();
+        animation-range: 0 300px;
     }
 
     h1{
