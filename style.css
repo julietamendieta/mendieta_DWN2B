@@ -138,7 +138,7 @@ p{
 .cont2{
     animation-name: aparicion;
     animation-timeline: scroll();
-    animation-range: entry 15% cover 50%;
+    animation-range: entry 15% cover 30%;
     animation-fill-mode: both;
 }
 
@@ -188,7 +188,7 @@ p{
     box-shadow: 4px 4px 4px 4px rgb(0, 0, 0, 0.3);
     animation-name: aparicion;
     animation-timeline: scroll();
-    animation-range: entry 30% cover 70%;
+    animation-range: entry 20% cover 50%;
     animation-fill-mode: both;
 }
 
