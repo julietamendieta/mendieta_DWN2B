@@ -128,20 +128,6 @@ p{
     width: 90%;
 }
 
-.cont1{
-    animation-name: aparicion;
-    animation-timeline: scroll();
-    animation-range: entry 0% cover 25%;
-    animation-fill-mode: both;
-}
-
-.cont2{
-    animation-name: aparicion;
-    animation-timeline: scroll();
-    animation-range: entry 15% cover 30%;
-    animation-fill-mode: both;
-}
-
 .nosotrosContenido{
     display: flex;
     justify-content: space-evenly;
@@ -153,6 +139,12 @@ p{
 .nosotrosTexto{
     width: 60%;
     padding: 0 20px;
+    animation-name: aparicion;
+    view-timeline-name: --nosotros;
+    view-timeline-axis: block;
+    animation-timeline: --nosotros;
+    animation-range: entry 0% cover 25%;
+    animation-fill-mode: both;
 }
 
 .nosotrosTexto p{
@@ -161,6 +153,12 @@ p{
 
 .nosotrosImagen{
     width: 40%;
+    animation-name: aparicion;
+    view-timeline-name: --nosotros;
+    view-timeline-axis: block;
+    animation-timeline: --nosotros;
+    animation-range: entry 0% cover 25%;
+    animation-fill-mode: both;
 }
 
 .nosotrosContenido picture img{
@@ -186,8 +184,10 @@ p{
     margin-bottom: 20px;
     border-radius: 0 10px 10px 0;
     box-shadow: 4px 4px 4px 4px rgb(0, 0, 0, 0.3);
+    view-timeline-name: --valor;
+    view-timeline-axis: block;
     animation-name: aparicion;
-    animation-timeline: scroll();
+    animation-timeline: --valor;
     animation-range: entry 20% cover 50%;
     animation-fill-mode: both;
 }
@@ -250,6 +250,12 @@ p{
     color: white;
     border-radius: 10px;
     box-shadow: 4px 4px 4px 4px rgb(0, 0, 0, 0.3);
+    view-timeline-name: --servicio;
+    view-timeline-axis: block;
+    animation-name: aparicion;
+    animation-timeline: --servicio;
+    animation-range: entry 20% cover 50%;
+    animation-fill-mode: both;
 }
 
 .textoServicio{
