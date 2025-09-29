@@ -737,3 +737,9 @@ footer .rrss{
         height: 400px;
     }
 }
+
+@media screen and (min-width: 1400px) {
+    header{
+        height: 100vh;
+    }
+}
