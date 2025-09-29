@@ -99,7 +99,7 @@ header h3{
     view-timeline-name: --texto;
     view-timeline-axis: block;
     animation-timeline: --texto;
-    animation-range: entry 0% cover 25%;
+    animation-range: entry 25% cover 50%;
     animation-fill-mode: both;
 }
 
