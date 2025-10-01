@@ -210,12 +210,15 @@ p{
     border-radius: 10px 0 0 10px;
 }
 
+.textoTarjeta{
+    height: 100%;
+}
+
 .valor p{
     padding: 20px;
     border-radius: 10px 0 0 10px;
     background-color: var(--main-color-2);
-    margin-bottom: 10px;
-    height: 90%;
+    height: 85%;
 }
 
 .reverse p{
@@ -224,6 +227,7 @@ p{
 
 .valor h3{
     border-top-right-radius: 10px;
+    height: 15%;
 }
 
 .reverse h3{
