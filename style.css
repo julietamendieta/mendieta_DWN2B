@@ -455,7 +455,6 @@ footer .rrss{
     .valor p{
         padding: 10px;
         border-radius: unset;
-        height: unset;
     }
 
     .reverse p{
@@ -615,7 +614,6 @@ footer .rrss{
 
     .valor p{
         padding: 10px;
-        height: unset;
         margin-bottom: unset;
         border-radius: 0 0 10px 10px;
     }
